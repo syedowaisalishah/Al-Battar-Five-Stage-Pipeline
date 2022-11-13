@@ -29,8 +29,8 @@ class HazardDetection extends Module {
     io.instr_forward := 0.U
     io.pc_forward := 0.U
     io.ctrl_forward := 0.U
-    io.instr_out := io.IF_ID_instr // Doesn't matter if we pass the old instruction forward because it won't be selected by the mux
-    io.pc_out := io.pc_in         // Doesn't matter if we pass the old pc value forward because it won't be selected by the mux
+    io.instr_out := io.IF_ID_instr 
+    io.pc_out := io.pc_in         
     io.current_pc_out := io.current_pc_in
   }
 }
