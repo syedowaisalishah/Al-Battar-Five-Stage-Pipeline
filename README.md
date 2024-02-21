@@ -1,7 +1,7 @@
 # 5-stage-pieline 
 Al Battar ، البتار
 
-<img src='/home/owais/Pictures/5stage_pipeline.png' height=600 width=100%>
+<img src='https://github.com/syedowaisalishah/5-stage-pieline/blob/main/5stage_pipeline' height=600 width=100%>
 <br>
 First of all get started by cloning this repository on your machine.
 
