@@ -1,0 +1,5 @@
+1708434943759:TestOnly riscv.toptest -- -DwriteVcd=1
+1708434959550:testOnly riscv.toptest -- -DwriteVcd=1
+1708501323121:test
+1708501356664:testOnly riscv.toptest -- -DwriteVcd=1
+1708503124456:exit

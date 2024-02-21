@@ -1,0 +1,23 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(riscv.toptest, org.scalatest.tools.Framework$$anon$1@227a1228, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mtoptest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- top testing *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.io.FileNotFoundException: C:/Users/F I ENTERPRISES/Music/file.txt (No such file or directory)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at java.base/java.io.FileInputStream.open0(Native Method)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at java.base/java.io.FileInputStream.open(FileInputStream.java:219)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.io.Source$.fromFile(Source.scala:94)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.io.Source$.fromFile(Source.scala:79)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at firrtl.FileUtils$.getLines(FileUtils.scala:110)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at firrtl.FileUtils$.getLines(FileUtils.scala:102)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at treadle.executable.MemoryInitializer.doInitialize(Memory.scala:665)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at treadle.executable.MemoryInitializer.$anonfun$initializeMemoriesFromFiles$1(Memory.scala:681)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at treadle.executable.MemoryInitializer.$anonfun$initializeMemoriesFromFiles$1$adapted(Memory.scala:680)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 4 seconds, 418 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 0, failed 1, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m*** 1 TEST FAILED ***[0m[0m
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	riscv.toptest[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mtest[0m) sbt.TestsFailedException: Tests unsuccessful[0m

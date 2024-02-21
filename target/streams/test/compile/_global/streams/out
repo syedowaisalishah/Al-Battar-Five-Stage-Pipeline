@@ -1,0 +1,7 @@
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/test/scala/riscv/toppipetest.scala:18:23: not found: type FreeSpec[0m
+[0m[[0m[31merror[0m] [0m[0mclass toptest extends FreeSpec with ChiselScalatestTester{[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/test/scala/riscv/toppipetest.scala:19:19: value in is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m    "top testing" in {[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

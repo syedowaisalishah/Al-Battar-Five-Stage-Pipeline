@@ -1,0 +1,15 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(testOnly riscv.toptest -- -DwriteVcd=1, Some(9a7e7611-0366-476d-9402-01b53ea7e4ca), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / testOnly[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 12 Scala sources to /home/owais/5-stage-pieline/target/scala-2.12/test-classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/test/scala/riscv/toppipetest.scala:18:23: not found: type FreeSpec[0m
+[0m[[0m[31merror[0m] [0m[0mclass toptest extends FreeSpec with ChiselScalatestTester{[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/test/scala/riscv/toppipetest.scala:19:19: value in is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m    "top testing" in {[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 1 s, completed Feb 21, 2024, 12:35:47 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

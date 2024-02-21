@@ -1,0 +1,308 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(testOnly riscv.toptest -- -DwriteVcd=1, Some(373974f3-7477-451f-8176-f73a49e2cc90), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / testOnly[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 19 Scala sources to /home/owais/5-stage-pieline/target/scala-2.12/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/main/scala/riscv/ALU_CONTROL.scala:2:8: not found: object chisel3[0m
+[0m[[0m[31merror[0m] [0m[0mimport chisel3._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/main/scala/riscv/ALU_CONTROL.scala:3:8: not found: object chisel3[0m
+[0m[[0m[31merror[0m] [0m[0mimport chisel3.util._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/main/scala/riscv/ALU_CONTROL.scala:5:28: not found: type Bundle[0m
+[0m[[0m[31merror[0m] [0m[0mclass alucontrolIO extends Bundle{[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/main/scala/riscv/ALU_CONTROL.scala:6:15: not found: value Input[0m
+[0m[[0m[31merror[0m] [0m[0m    val alu = Input ( UInt (3.W ) )[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/main/scala/riscv/ALU_CONTROL.scala:6:23: not found: value UInt[0m
+[0m[[0m[31merror[0m] [0m[0m    val alu = Input ( UInt (3.W ) )[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/main/scala/riscv/ALU_CONTROL.scala:6:31: value W is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m    val alu = Input ( UInt (3.W ) )[0m
+[0m[[0m[31merror[0m] [0m[0m                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/main/scala/riscv/ALU_CONTROL.scala:7:14: not found: value Input[0m
+[0m[[0m[31merror[0m] [0m[0m    val f3 = Input(UInt(3.W))[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/main/scala/riscv/ALU_CONTROL.scala:7:20: not found: value UInt[0m
+[0m[[0m[31merror[0m] [0m[0m    val f3 = Input(UInt(3.W))[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/main/scala/riscv/ALU_CONTROL.scala:7:27: value W is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m    val f3 = Input(UInt(3.W))[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/main/scala/riscv/ALU_CONTROL.scala:8:13: not found: value Input[0m
+[0m[[0m[31merror[0m] [0m[0m    val f7= Input(UInt(1.W))[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/main/scala/riscv/ALU_CONTROL.scala:8:19: not found: value UInt[0m
+[0m[[0m[31merror[0m] [0m[0m    val f7= Input(UInt(1.W))[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/main/scala/riscv/ALU_CONTROL.scala:8:26: value W is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m    val f7= Input(UInt(1.W))[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/main/scala/riscv/ALU_CONTROL.scala:9:25: not found: value Output[0m
+[0m[[0m[31merror[0m] [0m[0m    val alucontrolout = Output(UInt(5.W))[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/main/scala/riscv/ALU_CONTROL.scala:9:32: not found: value UInt[0m
+[0m[[0m[31merror[0m] [0m[0m    val alucontrolout = Output(UInt(5.W))[0m
+[0m[[0m[31merror[0m] [0m[0m                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/main/scala/riscv/ALU_CONTROL.scala:9:39: value W is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m    val alucontrolout = Output(UInt(5.W))[0m
+[0m[[0m[31merror[0m] [0m[0m                                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/main/scala/riscv/ALU_CONTROL.scala:11:26: illegal inheritance from final class Module[0m
+[0m[[0m[31merror[0m] [0m[0mclass alucontrol extends Module {[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/main/scala/riscv/ALU_CONTROL.scala:12:14: not found: value IO[0m
+[0m[[0m[31merror[0m] [0m[0m    val io = IO (new alucontrolIO())[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/main/scala/riscv/ALU_CONTROL.scala:14:5: not found: value when[0m
+[0m[[0m[31merror[0m] [0m[0m    when(io.alu==="b001".U){    //i type[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/main/scala/riscv/Forward.scala:2:8: not found: object chisel3[0m
+[0m[[0m[31merror[0m] [0m[0mimport chisel3._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/main/scala/riscv/Forward.scala:3:8: not found: object chisel3[0m
+[0m[[0m[31merror[0m] [0m[0mimport chisel3.util._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/main/scala/riscv/Forward.scala:5:27: illegal inheritance from final class Module[0m
+[0m[[0m[31merror[0m] [0m[0mclass ForwardUnit extends Module {[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/main/scala/riscv/Forward.scala:6:14: not found: value IO[0m
+[0m[[0m[31merror[0m] [0m[0m    val io = IO(new Bundle {[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/main/scala/riscv/Forward.scala:6:21: not found: type Bundle[0m
+[0m[[0m[31merror[0m] [0m[0m    val io = IO(new Bundle {[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/main/scala/riscv/Forward.scala:7:25: not found: value Input[0m
+[0m[[0m[31merror[0m] [0m[0m        val EX_MEM_rd = Input(UInt(5.W))[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/main/scala/riscv/Forward.scala:7:31: not found: value UInt[0m
+[0m[[0m[31merror[0m] [0m[0m        val EX_MEM_rd = Input(UInt(5.W))[0m
+[0m[[0m[31merror[0m] [0m[0m                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/main/scala/riscv/Forward.scala:7:38: value W is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m        val EX_MEM_rd = Input(UInt(5.W))[0m
+[0m[[0m[31merror[0m] [0m[0m                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/main/scala/riscv/Forward.scala:8:25: not found: value Input[0m
+[0m[[0m[31merror[0m] [0m[0m        val ID_EX_rs1 = Input(UInt(5.W))[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/main/scala/riscv/Forward.scala:8:31: not found: value UInt[0m
+[0m[[0m[31merror[0m] [0m[0m        val ID_EX_rs1 = Input(UInt(5.W))[0m
+[0m[[0m[31merror[0m] [0m[0m                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/main/scala/riscv/Forward.scala:8:38: value W is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m        val ID_EX_rs1 = Input(UInt(5.W))[0m
+[0m[[0m[31merror[0m] [0m[0m                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/main/scala/riscv/Forward.scala:9:25: not found: value Input[0m
+[0m[[0m[31merror[0m] [0m[0m        val ID_EX_rs2 = Input(UInt(5.W))[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/main/scala/riscv/Forward.scala:9:31: not found: value UInt[0m
+[0m[[0m[31merror[0m] [0m[0m        val ID_EX_rs2 = Input(UInt(5.W))[0m
+[0m[[0m[31merror[0m] [0m[0m                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/main/scala/riscv/Forward.scala:9:38: value W is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m        val ID_EX_rs2 = Input(UInt(5.W))[0m
+[0m[[0m[31merror[0m] [0m[0m                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/main/scala/riscv/Forward.scala:10:31: not found: value Input[0m
+[0m[[0m[31merror[0m] [0m[0m        val EX_MEM_regwrite = Input(UInt(1.W))[0m
+[0m[[0m[31merror[0m] [0m[0m                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/main/scala/riscv/Forward.scala:10:37: not found: value UInt[0m
+[0m[[0m[31merror[0m] [0m[0m        val EX_MEM_regwrite = Input(UInt(1.W))[0m
+[0m[[0m[31merror[0m] [0m[0m                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/main/scala/riscv/Forward.scala:10:44: value W is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m        val EX_MEM_regwrite = Input(UInt(1.W))[0m
+[0m[[0m[31merror[0m] [0m[0m                                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/main/scala/riscv/Forward.scala:11:25: not found: value Input[0m
+[0m[[0m[31merror[0m] [0m[0m        val MEM_WB_rd = Input(UInt(5.W))[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/main/scala/riscv/Forward.scala:11:31: not found: value UInt[0m
+[0m[[0m[31merror[0m] [0m[0m        val MEM_WB_rd = Input(UInt(5.W))[0m
+[0m[[0m[31merror[0m] [0m[0m                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/main/scala/riscv/Forward.scala:11:38: value W is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m        val MEM_WB_rd = Input(UInt(5.W))[0m
+[0m[[0m[31merror[0m] [0m[0m                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/main/scala/riscv/Forward.scala:12:31: not found: value Input[0m
+[0m[[0m[31merror[0m] [0m[0m        val MEM_WB_regwrite = Input(UInt(1.W))[0m
+[0m[[0m[31merror[0m] [0m[0m                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/main/scala/riscv/Forward.scala:12:37: not found: value UInt[0m
+[0m[[0m[31merror[0m] [0m[0m        val MEM_WB_regwrite = Input(UInt(1.W))[0m
+[0m[[0m[31merror[0m] [0m[0m                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/main/scala/riscv/Forward.scala:12:44: value W is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m        val MEM_WB_regwrite = Input(UInt(1.W))[0m
+[0m[[0m[31merror[0m] [0m[0m                                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/main/scala/riscv/Forward.scala:13:25: not found: value Output[0m
+[0m[[0m[31merror[0m] [0m[0m        val forward_A = Output(UInt(2.W))[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/main/scala/riscv/Forward.scala:13:32: not found: value UInt[0m
+[0m[[0m[31merror[0m] [0m[0m        val forward_A = Output(UInt(2.W))[0m
+[0m[[0m[31merror[0m] [0m[0m                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/main/scala/riscv/Forward.scala:13:39: value W is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m        val forward_A = Output(UInt(2.W))[0m
+[0m[[0m[31merror[0m] [0m[0m                                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/main/scala/riscv/Forward.scala:14:25: not found: value Output[0m
+[0m[[0m[31merror[0m] [0m[0m        val forward_B = Output(UInt(2.W))[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/main/scala/riscv/Forward.scala:14:32: not found: value UInt[0m
+[0m[[0m[31merror[0m] [0m[0m        val forward_B = Output(UInt(2.W))[0m
+[0m[[0m[31merror[0m] [0m[0m                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/main/scala/riscv/Forward.scala:14:39: value W is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m        val forward_B = Output(UInt(2.W))[0m
+[0m[[0m[31merror[0m] [0m[0m                                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/main/scala/riscv/Forward.scala:21:5: not found: value when[0m
+[0m[[0m[31merror[0m] [0m[0m    when(io.EX_MEM_regwrite === 1.U && io.EX_MEM_rd =/= "b00000".U && (io.EX_MEM_rd=== io.ID_EX_rs1) && (io.EX_MEM_rd === io.ID_EX_rs2)) {[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/main/scala/riscv/Forward.scala:31:8: not found: value when[0m
+[0m[[0m[31merror[0m] [0m[0m       when(io.MEM_WB_regwrite === 1.U && io.MEM_WB_rd =/= "b00000".U && ~((io.EX_MEM_regwrite === "b1".U) && (io.EX_MEM_rd =/= "b00000".U) && [0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/main/scala/riscv/JALR.scala:2:8: not found: object chisel3[0m
+[0m[[0m[31merror[0m] [0m[0mimport chisel3._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/main/scala/riscv/JALR.scala:3:8: not found: object chisel3[0m
+[0m[[0m[31merror[0m] [0m[0mimport chisel3.util._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/main/scala/riscv/JALR.scala:5:22: not found: type Bundle[0m
+[0m[[0m[31merror[0m] [0m[0mclass JALRIO extends Bundle{[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/main/scala/riscv/JALR.scala:6:16: not found: value Input[0m
+[0m[[0m[31merror[0m] [0m[0m    val addr = Input ( UInt (32.W ) )[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/main/scala/riscv/JALR.scala:6:24: not found: value UInt[0m
+[0m[[0m[31merror[0m] [0m[0m    val addr = Input ( UInt (32.W ) )[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/main/scala/riscv/JALR.scala:6:33: value W is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m    val addr = Input ( UInt (32.W ) )[0m
+[0m[[0m[31merror[0m] [0m[0m                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/main/scala/riscv/JALR.scala:7:14: not found: value Input[0m
+[0m[[0m[31merror[0m] [0m[0m    val pc = Input(UInt(32.W))[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/main/scala/riscv/JALR.scala:7:20: not found: value UInt[0m
+[0m[[0m[31merror[0m] [0m[0m    val pc = Input(UInt(32.W))[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/main/scala/riscv/JALR.scala:7:28: value W is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m    val pc = Input(UInt(32.W))[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/main/scala/riscv/JALR.scala:8:15: not found: value Output[0m
+[0m[[0m[31merror[0m] [0m[0m    val out = Output(UInt(32.W))[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/main/scala/riscv/JALR.scala:8:22: not found: value UInt[0m
+[0m[[0m[31merror[0m] [0m[0m    val out = Output(UInt(32.W))[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/main/scala/riscv/JALR.scala:8:30: value W is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m    val out = Output(UInt(32.W))[0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/main/scala/riscv/JALR.scala:10:20: illegal inheritance from final class Module[0m
+[0m[[0m[31merror[0m] [0m[0mclass JALR extends Module {[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/main/scala/riscv/JALR.scala:11:14: not found: value IO[0m
+[0m[[0m[31merror[0m] [0m[0m    val io = IO (new JALRIO())[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/main/scala/riscv/alu.scala:2:8: not found: object chisel3[0m
+[0m[[0m[31merror[0m] [0m[0mimport chisel3._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/main/scala/riscv/alu.scala:3:8: not found: object chisel3[0m
+[0m[[0m[31merror[0m] [0m[0mimport chisel3.util._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/main/scala/riscv/alu.scala:5:21: not found: type Bundle[0m
+[0m[[0m[31merror[0m] [0m[0mclass ALUIO extends Bundle {[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/main/scala/riscv/alu.scala:6:16: not found: value Input[0m
+[0m[[0m[31merror[0m] [0m[0m    val in_A = Input ( UInt (32 .W ) )[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/main/scala/riscv/alu.scala:6:24: not found: value UInt[0m
+[0m[[0m[31merror[0m] [0m[0m    val in_A = Input ( UInt (32 .W ) )[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/main/scala/riscv/alu.scala:6:34: value W is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m    val in_A = Input ( UInt (32 .W ) )[0m
+[0m[[0m[31merror[0m] [0m[0m                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/main/scala/riscv/alu.scala:7:16: not found: value Input[0m
+[0m[[0m[31merror[0m] [0m[0m    val in_B = Input ( UInt ( 32 . W ) )[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/main/scala/riscv/alu.scala:7:24: not found: value UInt[0m
+[0m[[0m[31merror[0m] [0m[0m    val in_B = Input ( UInt ( 32 . W ) )[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/main/scala/riscv/alu.scala:7:36: value W is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m    val in_B = Input ( UInt ( 32 . W ) )[0m
+[0m[[0m[31merror[0m] [0m[0m                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/main/scala/riscv/alu.scala:8:18: not found: value Input[0m
+[0m[[0m[31merror[0m] [0m[0m    val alu_Op = Input ( UInt ( 5 . W ) )[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/main/scala/riscv/alu.scala:8:26: not found: value UInt[0m
+[0m[[0m[31merror[0m] [0m[0m    val alu_Op = Input ( UInt ( 5 . W ) )[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/main/scala/riscv/alu.scala:8:37: value W is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m    val alu_Op = Input ( UInt ( 5 . W ) )[0m
+[0m[[0m[31merror[0m] [0m[0m                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/main/scala/riscv/alu.scala:9:15: not found: value Output[0m
+[0m[[0m[31merror[0m] [0m[0m    val out = Output ( UInt ( 32 . W ) )[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/main/scala/riscv/alu.scala:9:24: not found: value UInt[0m
+[0m[[0m[31merror[0m] [0m[0m    val out = Output ( UInt ( 32 . W ) )[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/main/scala/riscv/alu.scala:9:36: value W is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m    val out = Output ( UInt ( 32 . W ) )[0m
+[0m[[0m[31merror[0m] [0m[0m                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/main/scala/riscv/alu.scala:12:19: illegal inheritance from final class Module[0m
+[0m[[0m[31merror[0m] [0m[0mclass ALU extends Module  {[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/main/scala/riscv/alu.scala:13:14: not found: value IO[0m
+[0m[[0m[31merror[0m] [0m[0m    val io = IO (new ALUIO )[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/main/scala/riscv/alu.scala:16:5: not found: value switch[0m
+[0m[[0m[31merror[0m] [0m[0m    switch (io . alu_Op){[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/main/scala/riscv/alu.scala:17:9: not found: value is[0m
+[0m[[0m[31merror[0m] [0m[0m        is("b00000".U){     //addi  add[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/main/scala/riscv/alu.scala:17:21: value U is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m        is("b00000".U){     //addi  add[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/main/scala/riscv/alu.scala:19:9: not found: value is[0m
+[0m[[0m[31merror[0m] [0m[0m        is( "b01000".U){    //sub[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/main/scala/riscv/alu.scala:19:22: value U is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m        is( "b01000".U){    //sub[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/main/scala/riscv/alu.scala:21:9: not found: value is[0m
+[0m[[0m[31merror[0m] [0m[0m        is( "b00100".U){   // xori xor[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/main/scala/riscv/alu.scala:21:22: value U is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m        is( "b00100".U){   // xori xor[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/main/scala/riscv/alu.scala:23:9: not found: value is[0m
+[0m[[0m[31merror[0m] [0m[0m        is("b00110".U ){   //or ori[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/main/scala/riscv/alu.scala:23:21: value U is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m        is("b00110".U ){   //or ori[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/main/scala/riscv/alu.scala:25:9: not found: value is[0m
+[0m[[0m[31merror[0m] [0m[0m        is("b00111".U ){    //and andi[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/main/scala/riscv/alu.scala:25:21: value U is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m        is("b00111".U ){    //and andi[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/main/scala/riscv/alu.scala:27:9: not found: value is[0m
+[0m[[0m[31merror[0m] [0m[0m        is("b11111".U ){   //jal jalr[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/main/scala/riscv/alu.scala:27:21: value U is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m        is("b11111".U ){   //jal jalr[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/main/scala/riscv/alu.scala:29:9: not found: value is[0m
+[0m[[0m[31merror[0m] [0m[0m        is("b00001".U ){     //sll slli[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/main/scala/riscv/alu.scala:29:21: value U is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m        is("b00001".U ){     //sll slli[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/main/scala/riscv/alu.scala:31:9: not found: value is[0m
+[0m[[0m[31merror[0m] [0m[0m        is("b00101".U){[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/main/scala/riscv/alu.scala:31:21: value U is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m        is("b00101".U){[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/main/scala/riscv/alu.scala:33:9: not found: value is[0m
+[0m[[0m[31merror[0m] [0m[0m        is("b00010".U){[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/main/scala/riscv/alu.scala:33:21: value U is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m        is("b00010".U){[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/owais/5-stage-pieline/src/main/scala/riscv/alu.scala:34:13: not found: value when[0m
+[0m[[0m[31merror[0m] [0m[0m            when(io.in_A < io.in_B){      //slt slti  sltu[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m100 errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 1 s, completed Feb 20, 2024, 6:21:29 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
